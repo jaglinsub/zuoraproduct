@@ -146,7 +146,7 @@ public class ProductController {
         RestTemplate restTemplate = new RestTemplate();
         restTemplate.getMessageConverters().add(0, converter );
 
-        GETCatalogType responseEntity = null;
+        GETCatalogType responseEntity = null
 
         //new ParameterizedTypeReference<ArrayList<GETProductType>>(){} : Cannot deserialize instance of `java.util.ArrayList<com.zuora.model.GETProductType>` out of START_OBJECT token
         //GETProductType[].class : Cannot deserialize instance of `[Lcom.zuora.model.GETProductType;` out of START_OBJECT token
