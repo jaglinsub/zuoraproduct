@@ -154,7 +154,7 @@ public class ProductController {
         // GETCatalogType.class : at [Source: (PushbackInputStream); line: 15, column: 26] (through reference chain: com.zuora.model.GETCatalogType["products"]->java.util.ArrayList[0]->com.zuora.model.GETProductType["productRatePlans"])
         *//*ResponseEntity<Object> resEntity1 = restTemplate.exchange(url, HttpMethod.GET,
                 createOrderRequestHeaders(), Object.class);
-        //logMessages(mapper, resEntity1, "Response= ");
+        //logMessages(mapper, resEntity1, "Response= ")
 
         logMessages(mapper, resEntity1.getBody(), "Response Body= ");
         try {
